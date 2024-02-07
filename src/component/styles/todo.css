@@ -1,0 +1,194 @@
+.for-gridd{
+  margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+   
+}
+.rearrangee{
+    margin-top: 120px;
+}
+.sqrt{
+   height: 200px;
+   
+   
+}
+.sprt-one{
+    width: 500px;
+    background:linear-gradient(135deg,var(--myTopColor),white);
+    margin-left: 80px;
+    border-radius: 25px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.done{
+    text-decoration: line-through;
+ 
+    list-style-type: "✅";
+    margin-left: 20px;
+    padding-left: 5px;
+}
+
+.sprt-one p{
+    background: var(--LikeWIGHT);
+    width: 350px;
+    border-radius: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 20px;
+    overflow-wrap: break-word;
+   margin-top: 5px;
+    margin-bottom: 5px;
+    overflow: hidden;
+}
+.sprt-one .add-task-btn{
+    background: var(--myTopColor);
+    color: white;
+    border: 0;
+    outline: 0;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 25px;
+}
+.get-task-btn{
+    background: var(--myTopColor);
+    color: white;
+    border: 0;
+    outline: 0;
+    padding: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 25px;
+    font-size: 20px;
+}
+.sprt-one button:hover{
+    background: var(--firstLIGHT);
+    transition: 0.5 ease-in;
+   
+}
+.sprt-one h2{
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.sprot{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--LikeWIGHT);
+    border-radius: 25px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.sprot input{
+    border: none;
+    outline: none;
+    background: transparent;
+    border-radius: 25px;
+    padding: 10px;
+    font-size: 20px;
+
+}
+ul{
+ list-style: none;
+}
+li{
+    width: 170px;
+    overflow-wrap: break-word;
+    list-style-type: "⌛";
+    margin-left: 20px;
+    padding-left: 5px;
+}
+.list-inn{
+    background-color: var(--LikeWIGHT);
+    border-radius: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 350px;
+   
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 25px;
+}
+.lasty{
+    cursor: pointer;
+    color: var(--myTopColor);
+}
+.menu .to-head{
+  position: absolute;
+  
+  
+   left: 0;
+   top: 0;
+}
+@media only screen and (max-width : 1200px){
+    .for-gridd{
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    .sprt-one{
+        margin-bottom: 50px;
+        width: 600px;
+        font-size: 30px;
+    }
+    .sprt-one h2{
+        font-size: 30px;
+    }
+    .sprot input{
+        
+        padding: 15px;
+        font-size: 25px;
+    
+    }
+    .sprt-one .add-task-btn{
+        padding: 15px;
+        font-size: 25px;
+    }
+    .list-inn{
+       
+       
+        padding-top: 10px;
+        padding-bottom: 10px;
+        width: 350px;
+       
+        padding-left: 20px;
+        padding-right: 20px;
+        
+        font-size: 30px;
+    }
+    .get-task-btn{
+        
+        padding: 15px;
+        margin-top: 20px;
+     
+        font-size: 25px;
+    }
+    .sprt-one p{
+        
+        font-size: 25px;
+        
+       margin-top: 10px;   
+    }
+    .sqrt{
+        height: 250px;
+        
+        
+     }
+    
+}
+@media only screen and (max-width : 480px){
+    .for-gridd{
+        margin-left: 200px;
+    }
+}

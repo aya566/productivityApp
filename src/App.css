@@ -1,3 +1,7 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+
 .App {
   text-align: center;
 }
@@ -35,4 +39,11 @@
   to {
     transform: rotate(360deg);
   }
+}
+:root{
+  --myTopColor:#0b578eeb;
+  --darkerONE:#074F68;
+  --firstLIGHT:#459bcd;
+  --secondLIGHT:#8ECBEA;
+  --LikeWIGHT:#FFFEF5;
 }

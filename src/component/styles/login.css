@@ -1,0 +1,129 @@
+.bg-login{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   width: 100%;
+   height: 100vh;
+  
+}
+.bg-login .login-img img{
+   border-radius: 5%;
+   width: 120%;
+   height: 90vh;
+   margin-left: 90px;
+}
+.bg-login .login-card{
+    border-radius: 5%;
+  width: 38%;
+   height: 90vh;
+   margin-right: 90px;
+   background:linear-gradient(135deg,var(--myTopColor),white);
+   color: rgba(0, 0, 0, 0.915);
+   
+}
+.login-card h2{
+    margin-top: 40px;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+.login-card h3{
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+.login-card label{
+    font-size: 25px;
+    
+}
+.login-card input{
+    padding: 10px;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    font-size: 20px;
+    border: 2px solid rgba(255, 255, 255, 0.516);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.login-card button , .acc-btn{
+    padding: 5px;
+    cursor: pointer;
+    background: var(--myTopColor);
+    border: none;
+    outline: none;
+    color: var( --LikeWIGHT);
+   margin-top: 50px;
+    font-size: 25px;
+    border-radius: 3%;
+    padding: 15px;
+    text-align: center;
+    
+}
+.login-card button:hover , .acc-btn:hover{
+    background: var(--firstLIGHT);
+    transition: 0.5 ease-in;
+}
+.data-pass{
+    border-radius: 5%;
+    width: 38%;
+     height: 90vh;
+     margin-right: 90px;
+     background:linear-gradient(135deg,var(--myTopColor),white);
+     color: rgba(0, 0, 0, 0.915);
+
+}
+.back-btn{
+    background: var(--firstLIGHT);
+    margin-right: 10px;
+}
+.acc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   margin-left: 25%;
+   margin-bottom: 30px;
+}
+.acc-proimg{
+    border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  margin-left: 0%;
+  margin-top: 50px;
+}
+.acc h2 {
+    font-size: 25px;
+    margin: 15px;
+   
+
+}
+
+
+@media only screen and (max-width : 1024px){
+    .bg-login .login-img img{
+        visibility: hidden;
+        opacity: 0;
+    }
+    .bg-login .login-card{
+        width: 100%;
+       
+     margin-left: -150px;
+    }
+    .data-pass{
+        width: 100%;
+        margin-left: -150px;
+    }
+}
+@media only screen and (max-width : 480px){
+    .bg-login .login-card{
+        width: 1000%;
+        margin-left: -50px;
+        margin-right: -150px;
+        height: 100%;
+    }
+    .data-pass{
+        width: 1000%;
+        margin-left: -50px;
+        margin-right: -150px;
+        height: 100%;
+    }
+}

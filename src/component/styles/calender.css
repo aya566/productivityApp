@@ -1,0 +1,73 @@
+.contain-calender{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+h1{
+    text-align: left;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-top: 30px;
+    font-size: 35px;
+    color: var(--darkerONE);
+}
+.calendar-table {
+      width: 1000px;
+      font-size: 15px;
+      background:linear-gradient(135deg,var(--myTopColor),white);
+      border-radius: 25px;
+      margin-left: 30px;
+}
+.adding-task{
+    background:linear-gradient(135deg,var(--myTopColor),white);
+    margin-right: 100px;
+    width: 250px;
+    height: 300px;
+    margin-top: -80px;
+    border-radius: 25px;
+}
+.adding-task h2{
+    margin-top: 25px;
+    margin-bottom: 20px;
+
+}
+.adding-task input{
+    padding: 5px;
+    border-radius: 5px;
+    border: 0;
+    outline: 0;
+    background: var(--LikeWIGHT);
+    margin-bottom: 20px;
+}
+.adding-task .cal-btn{
+
+    cursor: pointer;
+    background: var(--myTopColor);
+    border: none;
+    outline: none;
+    color: var( --LikeWIGHT);
+  width: 80px;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 15px;
+    text-align: center;
+}
+.adding-task .cal-btn:hover{
+    background: var(--firstLIGHT);
+    transition: 0.5 ease-in;
+}
+@media only screen and (max-width : 1024px){
+    .calendar-table{
+        width: 500px;
+    }
+    .contain-calender{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .adding-task{
+        margin-top: 100px;
+    }
+}

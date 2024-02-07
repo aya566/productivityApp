@@ -1,0 +1,33 @@
+.week-page{
+    margin-left: 100px;
+}
+.word-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.word-flex p{
+    text-align: left;
+    width: 500px;
+    margin-right: 150px;
+    font-size: 27px;
+    margin-bottom: 100px;
+    padding: 10px;
+    color: var(--darkerONE);
+    font-weight: 600;
+    font-style: italic;
+}
+@media only screen and (max-width : 1200px){
+    .word-flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.word-flex p{
+    margin-top: 50px;
+}
+}
+@media only screen and (max-width : 480px){
+    .word-flex{
+    margin-left: 200px;
+}}

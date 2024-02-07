@@ -1,0 +1,161 @@
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
+    
+}
+.logo-pic{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.logo{
+    margin-left: 80px;
+}
+.nav-contain{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-contain nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 350px;
+    border-left: 0;
+    border-right: 6px;
+    border-style: solid;
+    border-image: linear-gradient(to bottom,var(--darkerONE),var(--secondLIGHT)) 1 100%;
+    padding-right: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 100%;
+}
+span{
+    margin-left: 40px;
+    list-style: none;
+    font-size: 40px;
+    
+}
+span a{
+    color: var(--myTopColor);
+   
+}
+.log{
+    margin-right: 70px;
+    
+}
+.login-btn{
+    border: 0;
+    outline: 0;
+    background: transparent;
+    padding: 0;
+}
+.img-navbar{
+    height: 25px;
+    width: 25px;
+border-radius: 50%;
+}
+ .log .login-btn a  {
+    font-size: 19px;
+    border: 0;
+    outline: 0;
+    background: var(--myTopColor);
+  padding-left: 25px;
+  padding-right: 15px;
+    color: var( --LikeWIGHT);
+    border-radius: 25px;
+    width: 120px;
+    cursor: pointer;
+ margin-top: -50px;
+  display: flex;
+text-align: center;
+text-decoration: none;
+padding-bottom: 10px;
+padding-top: 10px;
+}
+
+
+.login-btn a:hover ,.nav-btn:hover{
+    
+    background: var(--firstLIGHT);
+    transition: 0.5 ease-in;
+}
+.active a{
+    background: var(--myTopColor);
+    color: var( --LikeWIGHT);
+   padding: 15px;
+   border-radius: 35%;
+  
+   padding-bottom: 5px;
+   padding-top: 15px;
+   
+}
+
+.nav-btn{
+    padding: 5px;
+    cursor: pointer;
+    background: var(--myTopColor);
+    border: none;
+    outline: none;
+    color: var( --LikeWIGHT);
+    visibility: hidden;
+    opacity: 0;
+    font-size: 25px;
+    border-radius: 50%;
+    padding: 15px;
+    text-align: center;
+    padding-bottom: 5px;
+}
+@media only screen and (max-width : 1024px){
+    .nav{
+        width: 1600px;
+        
+    }
+    
+    .nav-contain .nav-btn{
+        visibility: visible;
+        opacity: 1;
+    }
+    .nav-contain nav {
+        position: fixed;
+        top: -100vh;
+       
+       left: -350px;
+        height: 100vh;
+        width: 100%;
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1.5rem;
+    background-size: cover;
+    background: var(--myTopColor);
+    transition: 1s ease;
+    
+
+    }
+
+    .nav-contain .responsive-nav{
+       
+        transform: translateY(100vh);
+    }
+    
+    nav a {
+        font-size: 2.5rem;
+        color: var(--LikeWIGHT);
+    }
+    nav .nav-close-btn{
+        position: absolute;
+        top: 2rem;
+        right: 2rem;
+    }
+     .a::after{
+      content: 'Home';
+      color: aliceblue;
+    }
+   
+
+}
